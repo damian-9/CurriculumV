@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+    text-align: center;
+    /* font-family: Arial; */
+    font-family: 'Indie Flower', cursive;
+
+}
+header {
+  background: rgba(54,86,111,255);
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header .fotoperfil .yo{
+  display: block;
+  padding: 10px;
+  display: flex;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+header .nombre{
+  display: flex;
+  color: white;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+header .ocupacion{
+  display: flex;
+  color: black;
+  font-size: 25px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+  }
+  p {
+    color: blue;
+    font-size: 30px;
+  }
+
+  ul{
+    color: rgb(218, 15, 15);
+    font-size: 20px;
+  }
+
+  /*img {
+    border: 5px solid #e4d50d;
+    box-shadow: 5px 5px 5px;
+    border-radius: 50%;
+  }*/
+
+  a{
+    color: rgb(157, 218, 15);
+    font-size: 20px;  
+  }
